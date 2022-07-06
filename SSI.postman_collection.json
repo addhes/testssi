@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "f03f6d0d-6d03-4945-838c-e8cb28bd7243",
+		"name": "SSI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15285102"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/register?name=Ade&email=coba8@gmail.com&password=adhe123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Ade"
+						},
+						{
+							"key": "email",
+							"value": "coba8@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "adhe123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/login?email=coba8@gmail.com&password=adhe123",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "coba8@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "adhe123"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
